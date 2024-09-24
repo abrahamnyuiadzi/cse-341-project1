@@ -2,7 +2,7 @@ const router = require('express').Router();
 
 //router.get('/', (req,res)=>{res.send('hello word')});
 
-router.use('/users', require('./users.js'));
+router.use('/contacts', require('./contacts.js'));
 
 module.exports = router ;
 
